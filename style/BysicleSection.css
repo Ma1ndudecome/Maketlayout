@@ -15,6 +15,36 @@
 }
 .card{
     height: 350px;
-    border: 1px solid black;
+    
 }
-.im
+.image-block{
+    margin-top: 35px;
+}
+.image-block>img{
+    height:150px;
+}
+.cost{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.costEl{
+    font-size: 13px;
+}
+.winter{
+    color:#7140EB;
+    font-size: 13px;
+    padding: 5px 10px 5px 7px;
+    border-radius: 20px;
+    background-color: #F1EEF8
+}
+.under{
+    margin-top: 20px;
+}
+.under>h1{
+    font-size: 20px;
+    color:#49464F
+}
+.under>p{
+    color:Ebike;
+}
