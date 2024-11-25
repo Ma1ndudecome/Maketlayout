@@ -1,6 +1,6 @@
 .header{
     height: 100vh;
-    background: linear-gradient(135deg,  rgb(229,112,231) 0%,rgb(200,94,199) 47%,rgb(168,73,163) 100%);
+    background: linear-gradient(to right, #a686ca, #a384c7, #a585c9, #c3a7d5, #a787cb);
     font-family: Roboto;
 }
 header{
@@ -9,31 +9,54 @@ header{
     justify-content: space-between;
     padding: 15px 40px;
 }
-.logo{
+header .logo{
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: 700;
     font-size: 35px;
 }
-.logo img{
+header .logo img{
     height: 70px;
 }
-.list{
+header .list{
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.list a{
+header .list a{
     font-size: 17px;
     text-decoration: none;
     color: #fff;
 }
-.list a:nth-child(4){
+header .list a:nth-child(4){
     padding: 0 20px;
 }
-.btn{
+.header .btn{
+    text-decoration: none;
     background: #7140EB;
     padding: 10px 55px;
     border-radius: 20px;
+    color: #fff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 7%;
+}
+main .title{
+    text-align: center;
+    color: #fff;
+    font-size: 120px;
+    letter-spacing: 10px;
+}
+main .sub-title{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
 }
