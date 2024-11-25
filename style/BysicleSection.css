@@ -8,15 +8,23 @@
     flex-direction: column;
     gap: 20px;
     margin-left: 70px;
+    font-family: "Roboto", sans-serif;
 }
-.Third-section>h1{
-    margin-top: 20px;
+.marg-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.marg-left>h1{
+    margin-top: 150px;
 }
 .cards{
     display: flex;
     gap: 100px;
-    margin-top: 200px;
     justify-content: center;
+    
 }
 .card{
     height: 370px;
@@ -31,7 +39,7 @@
     transform: translateY(-10px);
     cursor: pointer;
 }
-.
+
 .image-block{
     margin-top: 35px;
     display: flex;
@@ -39,6 +47,7 @@
 }
 .image-block>img{
     height:150px;
+    width: 90%;
 }
 .cost{
     display: flex;
