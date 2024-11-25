@@ -1,0 +1,39 @@
+.header{
+    height: 100vh;
+    background: linear-gradient(135deg,  rgb(229,112,231) 0%,rgb(200,94,199) 47%,rgb(168,73,163) 100%);
+    font-family: Roboto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.logo img{
+    height: 70px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.list a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+}
+.list a:nth-child(4){
+    padding: 0 20px;
+}
+.list a:last-child{
+    background: #7140EB;
+    padding: 10px 55px;
+    border-radius: 20px;
+}
