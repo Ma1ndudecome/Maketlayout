@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    --colorGrey:#49464F;
+    text-decoration: none;
 }
 .Third-section{
     display: flex;
@@ -12,13 +14,28 @@
 }
 .cards{
     display: flex;
+    gap: 100px;
+    margin-top: 200px;
+    justify-content: center;
 }
 .card{
-    height: 350px;
-    
+    height: 370px;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 10px;
+    width: 14%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
 }
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.
 .image-block{
     margin-top: 35px;
+    display: flex;
+    justify-content: center;
 }
 .image-block>img{
     height:150px;
@@ -30,6 +47,7 @@
 }
 .costEl{
     font-size: 13px;
+    color:var(--colorGrey)
 }
 .winter{
     color:#7140EB;
@@ -43,8 +61,21 @@
 }
 .under>h1{
     font-size: 20px;
-    color:#49464F
+    color:var(--colorGrey)
 }
 .under>p{
-    color:Ebike;
+    color:var(--colorGrey);
+    margin-bottom: 35px;
+}
+.under>a{
+    margin-top: 30px;
+    border: 1px solid #2E2C34;
+    border-radius: 20px;
+    padding: 15px 40px 15px 30px;
+    color:var(--colorGrey);
+    position: relative;
+}
+svg{
+    position: absolute;
+    right: 15px;
 }
