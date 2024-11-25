@@ -1,0 +1,30 @@
+.Howitworks {
+    width: 100%;
+    display: flex;
+    font-family: Roboto, sans-serif;
+}
+
+.Howitworks .section_1 {
+    width: 40%;
+
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 67px;
+    color: rgba(73, 70, 79, 1);
+    ;
+}
+
+.Howitworks li {
+    color: rgba(73, 70, 79, 1);
+    font-weight: 400;
+    font-size: 29px;
+
+}
+.button{
+    width: 182px;
+    height: 62px;
+    background: rgba(113, 64, 235, 1);
+
+}
