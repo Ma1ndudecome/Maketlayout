@@ -2,4 +2,74 @@
     width: 100%;
     min-height: 100vh;
     background-image: url(/img/blackDude.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.baner .block-left h1{
+    color:#FFFFFF;
+    max-width: 335px;
+    font-size: 60px;
+    font-weight: 320;
+    font-family: "Roboto", sans-serif;
+}
+.innerEl{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.block-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 100vh;
+    gap:10px
+}
+.block-right{
+    width: 50%;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.block-right h1{
+    font-size: 120px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    
+}
+.baner .block-left p{
+    color:#FFFFFF;
+    max-width: 290px;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+.innerEl a{
+    color:white;
+    background-color: #7140EB;
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.7s;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+.innerEl a:hover{
+    background-color: #5d23f0;
+    transform: translateY(-5px);
+
+}
+.baner .block-left .DanceText{
+    color:#FFFFFF;
+    max-width: 350px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
 }
