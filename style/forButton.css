@@ -1,0 +1,19 @@
+a{
+    position: relative;
+    z-index: 1;
+}
+a::before{
+    content: "";
+    position: absolute;
+    left:0;
+    top:0;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    transition: 0.7s;
+    z-index: -1;
+}
+a:hover::before{
+    width: 100%;
+}

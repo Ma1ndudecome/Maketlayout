@@ -43,4 +43,9 @@
 }
 .baner-details__Image-block img{
     width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.baner-details__Image-block img:hover{
+    transform: scale(1.05);
 }
