@@ -1,0 +1,51 @@
+.baner-details{
+    min-height: 55%;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+.baner-details_MainBlock{
+    width: 59%;
+    padding-top: 40px;
+    display: flex;
+
+}
+.banerDetails-LeftSection{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    max-height: 77%;
+}
+.banerDetails__title{
+    max-width: 325px;
+    font-size: 51px;
+    font-weight: 400;
+    color:#2E2C34;
+}
+.baner-details_paragraph{
+    max-width: 280px;
+}
+.baner-details-button{
+    border: 1px solid #2E2C34;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px;
+    color: var(--colorGrey);
+    position: relative;
+    width: 100px;
+}
+.banerDetails-RigthSection{
+    width: 51%;
+    height: 81%;
+}
+.baner-details__Image-block img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.baner-details__Image-block img:hover{
+    transform: scale(1.05);
+}
