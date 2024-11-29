@@ -17,3 +17,7 @@ a::before{
 a:hover::before{
     width: 100%;
 }
+#no-effect::before,
+#no-effect:hover::before {
+    display: none;
+}
