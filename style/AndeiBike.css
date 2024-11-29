@@ -11,7 +11,7 @@
     align-items: start;
     gap: 30px;
     width: 350px;
-    min-height: 500px;
+    min-height: 518px;
 }
 
 .info .title{
@@ -48,4 +48,62 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 334px;
+    padding: 65px 20px 20px 20px;
+    border-radius: 13px;
+    background-color: #F5F5F7;
+}
+.column-image{
+    width: 100%;
+    height: 250px;
+}
+.column:nth-child(1) .column-image{
+    background-image: url(/img/Bysicle.png);
+    background-size: cover;
+}
+.column:nth-child(2) .column-image{
+    background-image: url(/img/Mobed.png);
+    background-size: cover;
+}
+.column-info{
+    min-height: 200px;
+}
+.column-prise{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 17px;
+    color: #49464F;
+    word-spacing: 3px;
+}
+.column-prise a{
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #F1EEF8;
+    color: #7140EB;
+    padding: 3px 15px;
+}
+.column-title{
+    margin-top: 40px;
+    font-size: 29px;
+}
+.column-subtitle{
+    margin-bottom: 30px;
+}
+.column-btn{
+    color: white;
+    background-color: #7140EB;
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.7s;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
